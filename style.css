@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.body {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+}
+
+
+/* Navigation */
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar {
+    position: fixed;
+    padding: 15px 0;
+    width: 100%;
+    background-color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 200;
+    padding-left: 9%;
+    padding-right: 7%;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.navbar .nav-list li a {
+    color: white;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.navbar .nav-list li a:hover {
+    color: grey;
+}
+
+.navbar .nav-list li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar .logo a {
+    font-size: 24px;
+}
+
+.navbar .logo a:hover {
+    color: grey;
+}
+
+.navbar .logo a {
+    color: white;
+}
+
+.title {
+    font-size: 12px;
+    font-weight: 200;
+    color: black;
+    margin: 0px 0px 15px;
+}
+
+.header {
+    font-size: 35px;
+    font-weight: normal;
+    padding-left: 14%;
+    margin-bottom: 2%;
+}
+
+.title {
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    text-align: left;
+    padding-left: 14%;
+    padding-right: 35%;
+    margin-bottom: 3%;
+    /* padding-right: 20em;
+    padding-left: 10.5em; */
+}
+
+hr {
+    width: 73%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.title {
+    padding-left: 14%;
+}
+
+.text {
+    padding-left: 14%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    margin-left: 13%;
+    margin-right: 10%;
+}
+
+.pic1 {
+    margin: 5px;
+    padding-left: 2%;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.pic2 {
+    margin: 5px;
+    padding-left: 2%;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.img1 {
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.img2 {
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.text1 {
+    padding-left: 14%;
+    margin-bottom: 2%;
+}
+
+.element {
+    text-align: left;
+    font-size: medium;
+    margin: 10px;
+    width: 450px;
+    height: 240px;
+}
+
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    margin-left: 13%;
+    margin-right: 10%;
+}
+
+.box2 button {
+    margin-left: 1%;
+    cursor: pointer;
+    padding: 0.5%;
+}
+
+.class {
+    padding-left: 14%;
+    margin-bottom: 2%;
+}
+
+
+/* part3 */
+
+.box3 {
+    display: flex;
+    padding: 3px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+    margin-left: 08%;
+    margin-right: 10%;
+    cursor: pointer;
+}
+
+.box4 {
+    display: flex;
+    padding: 3px;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+    margin-left: 08%;
+    margin-right: 10%;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+
+.box5 {
+    display: flex;
+    padding: 3px;
+    margin-bottom: 3%;
+    margin-left: 8%;
+    flex-wrap: wrap;
+    margin-right: 10%;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
